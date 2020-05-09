@@ -1,12 +1,11 @@
-/**
- * @author surbhimahajan93
- *
- */
-public class MergeSort {
+package com.opentext.ezt.invoice.controller;
+
+
+public class DoNotCommit {
 
 	public static void main(String args[]) {
 		//input array
-		int[] input = { 48, 36, 13, 52, 19, 94, 1 };
+		int[] input = { 12,98,88,55,89,5,4,1,-1 };
 		int[] arr = sort(input);
 		//printing the sorted array
 		for (int i : arr) {
