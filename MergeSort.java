@@ -1,7 +1,7 @@
-package com.opentext.ezt.invoice.controller;
 
 
-public class DoNotCommit {
+
+public class MergeSort {
 
 	public static void main(String args[]) {
 		//input array
