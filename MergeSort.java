@@ -1,8 +1,5 @@
 
-
-
 public class MergeSort {
-
 	public static void main(String args[]) {
 		//input array
 		int[] input = { 12,98,88,55,89,5,4,1,-1 };
@@ -13,7 +10,6 @@ public class MergeSort {
 		}
 	}
 
-	
 	public static int[] sort(int[] arr) {
 		int length = arr.length;
 		divideArray(arr, 0, length - 1);
@@ -24,11 +20,11 @@ public class MergeSort {
 	public static int[] divideArray(int[] arr, int lowerIndex, int higherIndex) {
 		if (lowerIndex < higherIndex) {
 			int middle = lowerIndex + (higherIndex - lowerIndex) / 2;
-			// recursion to solve the left partition
+			// recursion for solving the left partition
 			divideArray(arr, lowerIndex, middle);
-			// recursion to sort the right partition
+			// recursion for solving the right partition
 			divideArray(arr, middle + 1, higherIndex);
-			// merge array
+			// merge both the left and right arrays to get the result
 			mergeArray(arr, lowerIndex, middle, higherIndex);
 
 		}
