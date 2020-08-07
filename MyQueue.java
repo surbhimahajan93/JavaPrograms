@@ -1,5 +1,8 @@
 import java.util.*;
+/*
+Queue via Stacks: Implement a MyQueue class which implements a queue using two stacks.
 
+*/
 class MyStack {
 	int top;
 	List<Integer> arr;
